@@ -1,0 +1,48 @@
+dir lista todos los archivos
+
+ls lista todos los archivos pero funciona en otros S.O.
+
+cd nombre carpeta
+
+cd .. vuelvo un directorio atras
+
+
+Subir github
+Crear el github en la pagina web
+
+en la terminal entrar al desafio con Vscode, ingresar a la terminal con GITBASH y colocar: 
+Elizabeth Leon@DESKTOP-U83U5SH MINGW64 /d/Desafio1
+$ git init
+$ git remote add origin git@github.com:darkely2022/desafio_flex.git
+$ git branch -M main
+$ git status
+$ git add .
+$ git commit -m "primero"
+[main (root-commit) dc00ae2] primero
+ 14 files changed, 302 insertions(+)
+ create mode 100644 Captura.JPG
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/imgs/Screen Shot 2018-11-28 at 15.27.14.jpg
+ create mode 100644 assets/imgs/Screen Shot 2018-11-28 at 15.28.04.jpg
+ create mode 100644 assets/imgs/Screen Shot 2018-11-28 at 15.28.30.jpg
+ create mode 100644 assets/imgs/Screen Shot 2018-11-28 at 15.30.34.jpg
+ create mode 100644 assets/imgs/Screen Shot 2018-11-28 at 15.30.54.jpg
+ create mode 100644 assets/imgs/Screen Shot 2018-11-28 at 15.31.09.jpg
+ create mode 100644 assets/imgs/Screen Shot 2018-11-28 at 15.32.16.jpg
+ create mode 100644 assets/imgs/Screen Shot 2018-11-28 at 15.32.44.jpg
+ create mode 100644 assets/imgs/globo.JPG
+ create mode 100644 assets/imgs/hand.png
+ create mode 100644 assets/imgs/maria.jpg
+ create mode 100644 index.html
+
+$ git push -u origin main
+
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (19/19), 1.19 MiB | 4.25 MiB/s, done.
+Total 19 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:darkely2022/desafio_flex.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
